@@ -32,7 +32,7 @@ This application will be what your version of the bot will be so name it acordin
 
 Then head to the Bot section and add a new bot. This will turn your application into a bot so that it can be invited to servers and do bot related things.
 
-After that add an image for your bot along with a name reveal the token provided. This token is important so take a note of this for later.
+After that add an image for your bot along with a name if you want to and reveal the token provided. This token is important so take a note of this for later.
 
 Now you have an application setup on Discord all you need to do is invite the bot to the server!
 
