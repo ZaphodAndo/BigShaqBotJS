@@ -4,7 +4,10 @@
   "description": "Big Shaq the one and only discord bot JS edition",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx|jsx)\"",
+    "format": "npm run prettier -- --write",
+    "check-format": "npm run prettier -- --list-different"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,8 @@
     "ffmpeg-binaries": "^4.0.0",
     "opusscript": "0.0.6",
     "scuffed-text": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
